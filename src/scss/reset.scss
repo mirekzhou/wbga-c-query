@@ -1,0 +1,90 @@
+@import 'mixins';
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); // make transparent link selection, adjust last value opacity 0 to 1.0
+}
+
+button:focus,
+a:focus,
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+article,
+aside,
+body,
+footer,
+header,
+hgroup,
+nav,
+section,
+ul,
+li {
+    @include box-sizing(border-box);
+
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 16px;
+    height: 100%;
+    position: absolute;
+    -webkit-text-size-adjust: none;             // prevent webkit from resizing text to fit
+    -webkit-touch-callout: none;                // prevent callout to copy image, etc when tap to hold
+    -webkit-user-select: none;                  // prevent copy paste, to allow, change 'none' to 'text'
+    user-select: none;
+    width: 100%;
+}
+
+button {
+    border: 0;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: .83em;
+}
+
+h6 {
+    font-size: .67em;
+}
+
+a {
+    text-decoration: none;
+}

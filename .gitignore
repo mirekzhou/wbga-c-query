@@ -1,0 +1,15 @@
+# private files
+my/
+
+# build and dist folders
+build/
+dist/
+
+# node files
+node_modules/
+
+# bower files
+bower_components/
+
+# mac files
+.DS_Store

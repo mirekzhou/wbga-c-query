@@ -1,0 +1,82 @@
+.query-transfers-ctrl {
+    display: none;
+    margin: 0 auto;
+    padding: 15px;
+    width: 800px;
+
+    .bar-zone {
+        select {
+            display: inline-block;
+            height: 30px;
+            margin-right: 10px;
+            padding-left: 10px;
+            width: 120px;
+        }
+
+        input {
+            box-sizing: border-box;
+            height: 30px;
+            margin-right: 10px;
+            padding-left: 10px;
+            width: 120px;
+        }
+
+        ul {
+            display: inline-block;
+            
+            li {
+                border: 1px solid #A9A9A9;
+                cursor: pointer;
+                display: inline-block;
+                font-size: 8px;
+                height: 30px;
+                line-height: 30px;
+                margin-right: 10px;
+                width: 70px;
+                text-align: center;
+
+                &:hover {
+                    background: #F00;
+                }
+            }
+
+            .selected {
+                background: #F00;
+            }
+        }
+
+        .controls {
+            float: left;
+            width: 85%;
+
+            .row1 {
+                height: 50px;
+
+                select {
+                    margin-right: 10px;
+                    vertical-align: bottom;
+                }
+            }
+        }
+
+        .submit {
+            float: right;
+            width: 15%;
+
+            button {
+                background: #AD0000;
+                border-radius: 5px;
+                color: #FFF;
+                cursor: pointer;
+                font-size: 12px;
+                font-weight: bold;
+                height: 30px;
+                width: 120px;
+            }
+        }
+    }
+
+    .table-zone {
+    }
+
+}

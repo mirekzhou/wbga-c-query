@@ -1,0 +1,39 @@
+{
+  "name": "www.otms.cn",
+  "version": "0.0.0",
+  "authors": [
+    "shuai.xia@otms.cn"
+  ],
+  "description": "Website for www.otms.cn",
+  "main": "src/index.html",
+  "keywords": [
+    "HTML/CSS",
+    "Web",
+    "oTMS"
+  ],
+  "license": "ISC",
+  "homepage": "www.otms.cn",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "jquery-1.9.1": "jquery#1.9.1",
+    "bootstrap": "~3.1.1",
+    "html5shiv": "~3.7.2",
+    "respond": "~1.4.2",
+    "i18n": "*"
+  },
+  "devDependencies": {
+    "i18next": "~1.11.0",
+    "datatables": "DataTables#~1.10.10",
+    "datetimepicker": "~2.4.5",
+    "jquery-placeholder": "https://github.com/mathiasbynens/jquery-placeholder.git#~2.3.0",
+    "jquery": "1.11.3"
+  }
+}

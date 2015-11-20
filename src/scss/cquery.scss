@@ -1,0 +1,162 @@
+$content-width: 1024px;
+
+.cquery-page {
+    margin: 0 auto;
+    padding-bottom: 130px;
+
+    .nav {
+        $nav-height: 100px;
+
+        border-bottom: 4px solid #AD0000;
+        height: $nav-height;
+        width: 100%;
+        
+        .nav-content {
+            border: 1px solid #E1E1E1; 
+            border-bottom: 0;
+            color: #FFF;
+            height: 99%;
+            line-height: 99%;
+            margin: 3px auto;
+            width: $content-width;
+
+            .image {
+                cursor: pointer;
+                display: inline-block;
+                height: 100%;
+                background-image: url("../img/util.png");
+                background-repeat: no-repeat;
+                display: inline-block;
+                width: 80px;
+                vertical-align: middle;
+                text-align: center;
+                background-position: -20px 10px;
+                background-size: 220%;
+            }
+
+            .title {
+                color: #AD0000;
+                display: inline-block;
+                font-size: 30px;
+                font-weight: bold;
+                vertical-align: middle;
+            }
+        }   
+    }
+
+    .content{
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 1024px;
+
+        $left-padding: 40px;
+
+        .toggle-feature {
+            border-right: 2px solid #E1E1E1;
+            display: inline-block;
+            float: left;
+            min-width: 15%;
+            padding-top: 15px;
+            padding-right: 10px;
+
+            li {
+                border-radius: 5px;
+                cursor: pointer;
+                height: 50px;
+                line-height: 50px;
+                padding-right: 20px;
+                position: relative;
+
+                .image {
+                    position: absolute;
+                    left: 10px;
+                    top: -5px;
+                    background-image: url("../img/util.png");
+                    background-repeat: no-repeat;
+                    display: inline-block;
+                    height: 60px;
+                    width: 50px;
+                    vertical-align: middle;
+
+                    & + span {
+                        display: inline-block;
+                        margin-left: 60px;
+                    }
+                }
+            }
+
+            .title-bets {
+                .image {
+                    background-position: -45px -155px;
+                }
+
+                &.selected {
+                    background: #AD0000;
+                    color: #FFF;
+
+                    .image {
+                        background-position: -130px -155px;
+                    }
+                }
+            }
+            
+            .title-rebets {
+                .image {
+                    background-position: -45px -255px;
+                }
+
+                &.selected {
+                    background: #AD0000;
+                    color: #FFF;
+
+                    .image {
+                        background-position: -130px -255px;
+                    }
+                }
+            }
+
+            .title-transfers {
+                .image {
+                    background-position: -45px -345px;
+                }
+
+                &.selected {
+                    background: #AD0000;
+                    color: #FFF;
+
+                    .image {
+                        background-position: -130px -345px;
+                    }
+                }
+            }
+        }
+        
+        .container {
+            width: 74%;
+            float: left;
+        }
+    }
+
+    .clear {
+        clear: both;
+    }
+}
+
+.ie8 {
+    input {
+        padding-top: 8px;
+    } 
+
+    select {
+        padding-bottom: 5px;
+    } 
+
+    .nav {
+        .nav-content {
+            .image {
+                background-position: -30px -3px;        
+            }
+        }
+    }
+
+}
