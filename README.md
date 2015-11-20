@@ -1,5 +1,3 @@
-# oTMS Website #
-
 ## Development ##
 
 ### Dependencies ###
@@ -8,7 +6,7 @@
 
 ### How to start ###
 
-* git clone git@bitbucket.org:opentrans/www.otms.cn.git
+* git clone git@bitbucket.org:opentrans
 * npm install -g bower
 * npm install -g gulp # install build tool
 * npm instal 
